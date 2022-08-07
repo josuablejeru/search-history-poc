@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./search-history
+    container_name: search-history
+    image: josuablejeru/search-history:latest
+    ports:
+      - "8080:8080"
+
+    volumes:
+      - ./search-history:/app
