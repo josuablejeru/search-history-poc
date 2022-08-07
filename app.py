@@ -3,7 +3,7 @@ import os
 
 import aws_cdk as cdk
 
-from search_history_poc.search_history_poc_stack import SearchHistoryPocStack
+from infrastructure.search_history_poc_stack import SearchHistoryPocStack
 
 
 app = cdk.App()
